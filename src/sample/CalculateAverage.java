@@ -20,11 +20,13 @@ public class CalculateAverage {
         System.out.println("Input score of Science!");
         int Science = sc.nextInt();
 
-        System.out.println("Input score of Social!");
-        int Social = sc.nextInt();
+        System.out.println("Input score of Society!");
+        int Society = sc.nextInt();
 
 
-
+        float average = (Japanese + mathmatic + Science + Society) / 4.0f;
+        String message = "Score average is" + average;
+        System.err.println(message);
 
 
 

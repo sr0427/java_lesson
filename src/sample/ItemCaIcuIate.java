@@ -1,6 +1,6 @@
 package sample;
 
-public class ItemCalculate {
+public class ItemCaIcuIate {
     public static void main(String[] args) {
         String name = "コーヒー";
         int price = 100;
