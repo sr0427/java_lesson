@@ -60,7 +60,34 @@ public class ItemCaIcuIate {
         //price に amount をかける
         price *= amount;
         System.out.println(price);
+
+
+        boolean is_match = false;
+        price = 100;
+
+        is_match = (price == 100);
+        System.out.println(is_match);
+// 左項が右項より小さいか
+        is_match = (price < 100);
+        System.out.println(is_match);
+// 左項と右項が等しくないか
+        is_match = (price != 100);
+        System.out.println(is_match);
+// 左項が右項より大きいか
+        is_match = (price > 100);
+        System.out.println(is_match);
+//左項が右項以上か
+        is_match = (price >= 100);
+        System.out.println(is_match);
+
+
+        int price3 = 100;
+        String price4 = "100";
+        is_match = (price3 == Integer.parseInt(price4));
+        System.out.println(is_match);
+
     }
+
 
 
 
